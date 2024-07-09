@@ -1,0 +1,16 @@
+#last-modified-posts strong {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+#last-modified-posts ul {
+    list-style: circle inside;
+}
+
+#last-modified-posts ul li a {
+    display: none;
+}
+
+#last-modified-posts ul li:hover a {
+    display: inline-block;
+}
